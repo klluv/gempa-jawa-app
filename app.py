@@ -59,7 +59,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/earthquake.png", width=80)
+    st.image("https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-earthquake-emergency-service-flaticons-lineal-color-flat-icons-2.png", width=80)
     st.title("Navigasi Cerita")
     st.markdown("Pilih bagian untuk langsung menuju topik:")
     
