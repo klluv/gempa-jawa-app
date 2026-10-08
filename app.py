@@ -97,13 +97,15 @@ html("""
   font-family: 'Bricolage Grotesque', sans-serif;
   font-size: clamp(2.2rem, 5.2vw, 4rem);
   font-weight: 800; line-height: 1.02; letter-spacing: -0.03em;
-  color: #fff; max-width: 14ch; margin: 0 0 1.1rem;
+  color: #fff !important; max-width: 14ch; margin: 0 0 1.1rem;
 }
+.stApp .hero h1.hero-title { color: #fff !important; }
 .hero-sub {
   position: relative; z-index: 1;
   font-size: 1.08rem; line-height: 1.55;
-  color: #B9CDD8; max-width: 52ch; margin: 0;
+  color: #E6F0F5 !important; max-width: 52ch; margin: 0;
 }
+.stApp .hero p.hero-sub { color: #E6F0F5 !important; }
 .hero svg {
   position: absolute; left: 0; bottom: 0;
   width: 100%; height: 42%;
